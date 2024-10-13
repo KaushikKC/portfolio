@@ -1,19 +1,23 @@
 import React from "react";
 
 import Navbar from "./components/Navbar";
-// import Profile from "./components/Profile";
-// import WorkExperience from "./components/WorkExperience";
-// import Projects from "./components/Projects";
-// import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import Blogs from "./components/Blogs";
+import Events from "./components/Events";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-purple-900 via-purple-950 to-black text-white min-h-screen">
+    <div className="bg-black text-white min-h-screen font-poppins">
       <Navbar />
-      {/* <Profile />
-      <WorkExperience />
+      <Hero />
+      <About />
       <Projects />
-      <Contact /> */}
+      <Blogs />
+      <Events />
+      <Contact />
     </div>
   );
 }
