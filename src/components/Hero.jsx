@@ -26,9 +26,9 @@ function Hero({ handleResumeDownload }) {
           Full-Stack Blockchain Developer
         </h2>
         <p className="mt-4 w-full sm:w-3/4 text-base sm:text-lg">
-          A self-taught UI/UX designer, functioning in the industry for 3+ years
-          now. I make meaningful and delightful digital products that create an
-          equilibrium between user needs and business goals.
+          Experienced full stack blockchain developer transitioning into a
+          Developer Relations (DevRel) role, focused on bridging the gap between
+          developers and cutting-edge Web3 technologies.
         </p>
       </div>
 

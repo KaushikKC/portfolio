@@ -24,16 +24,17 @@ const About = () => {
           Hey there!
         </h1>
         <p className="text-base sm:text-lg">
-          I have been actively involved in the Web3 space, contributing to
-          various blockchain projects as both a developer and community leader.
-          I have expertise in developing full-stack applications using
-          JavaScript, React, Solidity, and Web3.js. As part of Web3Chennai, I
-          have organized over 5 meetups to foster a thriving blockchain
-          community in India.
+          I'm a full-stack blockchain developer transitioning into Developer
+          Relations with a solid foundation in blockchain protocols like
+          Ethereum, Solana, and Aptos. I've led community-building initiatives
+          like "Dine with Devs," which brings Web3 developers together for
+          collaboration and learning. My experience spans TypeScript, React, and
+          Solidity, where I've created developer-centric content, technical
+          documentation, and practical guides.
         </p>
         <p className="text-base sm:text-lg">
-          I’m dedicated to driving innovation in the web3 space and continuously
-          exploring new opportunities for collaboration and growth.
+          I'm passionate about bridging technical concepts and community
+          engagement to drive adoption and education in the Web3 space.
         </p>
       </div>
 

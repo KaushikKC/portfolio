@@ -1,20 +1,21 @@
-import bountybridge from "../images/bountybridge.png";
+import c6 from "../images/C6Credits.png";
+import repeat from "../images/Repeat.png";
 const projects = [
   {
     id: 1,
-    title: "Example Project",
+    title: "C6CREDITS",
     description:
-      "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-    imageUrl: bountybridge,
-    codeUrl: "https://github.com/username/example-project-1",
+      "Reduce Your Carbon Footprint with Seamless Tokenized Credits, A seamless and secure marketplace for individuals and businesses to trade verified carbon credits, powered by blockchain innovation and cross-chain compatibility.",
+    imageUrl: c6,
+    demoUrl: "https://c6credits.vercel.app/",
   },
   {
     id: 2,
-    title: "Example Project",
+    title: "REPEAT",
     description:
-      "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-    imageUrl: bountybridge,
-    codeUrl: "https://github.com/username/example-project-1",
+      "The Habit Tracker app facilitates the creation of personalized habits, enabling users to manage their waking and sleep schedules, physical activities like running or walking, and coding routines tracked through GitHub commits. Users can set reminders for daily tasks and create challenges involving multiple habits, allowing participants to stake money and compete against each other.",
+    imageUrl: repeat,
+    codeUrl: "https://github.com/KaushikKC/Repeat_App",
   },
 ];
 

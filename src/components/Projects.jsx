@@ -23,18 +23,31 @@ const Projects = () => {
                 Featured Project
               </h3>
               <h2 className="mt-2 text-2xl font-bold">{project.title}</h2>
-              <p className="mt-4 text-sm leading-relaxed">
+              <p className="mt-4 mr-4 text-sm leading-relaxed">
                 {project.description}
               </p>
 
               {/* Buttons */}
               <div className="mt-6 flex justify-center md:justify-start space-x-4">
-                <a
-                  href={project.codeUrl}
-                  className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
-                >
-                  View Code
-                </a>
+                {project.demoUrl ? (
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
+                  >
+                    View Demo
+                  </a>
+                ) : (
+                  <a
+                    href={project.codeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
+                  >
+                    View Code
+                  </a>
+                )}
               </div>
             </div>
 

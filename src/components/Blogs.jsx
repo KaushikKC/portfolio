@@ -23,6 +23,8 @@ const Blogs = () => {
               <div className="mt-6 flex justify-center md:justify-start space-x-4">
                 <a
                   href={blog.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
                 >
                   Read More
