@@ -6,7 +6,7 @@ const Blogs = () => {
     <div id="blogs" className="flex flex-col items-center mt-10 px-4 md:px-0">
       <p className="text-4xl font-bold mt-2">Blogs</p>
       <div className="flex flex-col items-center space-y-16 py-16 bg-black w-full">
-        {blogs.map(blog =>
+        {blogs.map((blog) => (
           <div key={blog.id} className="w-full max-w-4xl">
             <a
               href={blog.url}
@@ -44,18 +44,19 @@ const Blogs = () => {
                 </div>
 
                 {/* Image */}
-                {blog.imageUrl &&
+                {blog.imageUrl && (
                   <div className="relative z-[1] mt-8 md:mt-0 flex justify-center w-full md:w-auto">
                     <img
                       src={blog.imageUrl}
                       alt={`${blog.title} Cover`}
                       className="w-full max-w-xs rounded-lg h-[200px] object-cover"
                     />
-                  </div>}
+                  </div>
+                )}
               </div>
             </a>
           </div>
-        )}
+        ))}
       </div>
     </div>
   );

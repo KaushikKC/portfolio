@@ -35,7 +35,7 @@ const Contact = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://x.com/Kaushikk1704"
+          href="https://x.com/0xkaushik_k"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-3xl hover:text-purple-400 transition"
@@ -54,7 +54,7 @@ const Contact = () => {
 
       {/* Email */}
       <a
-        href="mailto:kccreations1704@gmail.com"
+        href="mailto:0xkaushik.eth@gmail.com"
         className="text-lg text-purple-400 border border-purple-400 py-2 px-6 rounded-lg hover:bg-purple-600 hover:text-white transition"
       >
         Email Me

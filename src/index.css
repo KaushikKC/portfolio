@@ -7,3 +7,22 @@
 body {
   @apply font-poppins;
 }
+
+/* Projects section: subtle horizontal scrollbar */
+.projects-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(147, 110, 243, 0.4) transparent;
+}
+.projects-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.projects-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.projects-scroll::-webkit-scrollbar-thumb {
+  background: rgba(147, 110, 243, 0.4);
+  border-radius: 3px;
+}
+.projects-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(147, 110, 243, 0.6);
+}

@@ -76,7 +76,7 @@ function Hero({ handleResumeDownload }) {
           />
         </a>
         <a
-          href="https://x.com/Kaushikk1704"
+          href="https://x.com/0xkaushik_k"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -6,7 +6,7 @@ const Events = () => {
     <div id="events" className="flex flex-col items-center mt-10 px-4 md:px-0">
       <p className="text-4xl font-bold mt-2">Events</p>
       <div className="flex flex-col items-center space-y-16 py-16 bg-black w-full">
-        {events.map(event =>
+        {events.map((event) => (
           <div key={event.id} className="w-full max-w-4xl">
             <a
               href={event.proofUrl}
@@ -66,7 +66,7 @@ const Events = () => {
               </div>
             </a>
           </div>
-        )}
+        ))}
       </div>
     </div>
   );
