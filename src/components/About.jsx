@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll"; // Importing react-scroll for smooth scrolling
 import github from "../images/github.svg";
 import reactjs from "../images/react.svg";
 import nextjs from "../images/nextjs.svg";
