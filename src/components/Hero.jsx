@@ -44,7 +44,7 @@ function Hero({ handleResumeDownload }) {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/16_PuV62CcpuVsGcJhxFnTETNUZhRb1-n/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Ht1yOlVKWAbCeUFjgsgSBgDF_URKEdZs/view?usp=sharing"
           className="border border-white text-white py-2 px-6 rounded transition-all duration-300 hover:bg-white hover:text-[#7127BA] hover:shadow-lg"
         >
           Resume
