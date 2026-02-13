@@ -2,27 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
+/* Readable serif — Lora is designed for comfortable long-form reading */
 body {
-  @apply font-poppins;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+  line-height: 1.6;
 }
 
-/* Projects section: subtle horizontal scrollbar */
-.projects-scroll {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(147, 110, 243, 0.4) transparent;
-}
-.projects-scroll::-webkit-scrollbar {
-  height: 6px;
-}
-.projects-scroll::-webkit-scrollbar-track {
-  background: transparent;
-}
-.projects-scroll::-webkit-scrollbar-thumb {
-  background: rgba(147, 110, 243, 0.4);
-  border-radius: 3px;
-}
-.projects-scroll::-webkit-scrollbar-thumb:hover {
-  background: rgba(147, 110, 243, 0.6);
+/* Underline links on hover, classic document feel */
+a[href]:not(.no-underline):hover {
+  text-decoration: underline;
 }

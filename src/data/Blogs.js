@@ -16,7 +16,7 @@ const blogs = [
       "Pluralism, Pseudonymity, and the Future of ZK Identity: Why We Built Proof of Witness",
     description:
       "Over the past few years, I've been deeply involved in zero-knowledge (ZK) technology not just from the perspective of cryptography or…",
-    url: "https://medium.com/@kccreations1704",
+    url: "https://medium.com/@kccreations1704/pluralism-pseudonymity-and-the-future-of-zk-identity-why-we-built-proof-of-witness-2f8f57bc00cb",
     date: "Jul 1, 2025",
   },
   {
@@ -72,7 +72,7 @@ const blogs = [
   {
     id: 9,
     title:
-      "Dare to Deploy: Building Your L3 Rollup Chain with Arbitrum and Avail Explained🚀",
+      "Dare to Deploy: Building Your L3 Rollup Chain with Arbitrum and Avail Explained",
     description:
       "Hey there, intrepid blockchain builder! If you've ever dreamt of setting up your own Layer 3 (L3) rollup chain, it's time to roll up those sleeves…",
     url: "https://medium.com/@kccreations1704",

@@ -4,10 +4,23 @@ import bountybridge from "../images/bountybridge.png";
 
 const projects = [
   {
+    id: 34,
+    title: "Silensis",
+    description: "A perpetual futures DEX on Solana.",
+    imageUrl: null,
+    codeUrl: "https://github.com/KaushikKC/Silensis",
+  },
+  {
+    id: 35,
+    title: "VeilPay",
+    description: "Verified Payroll using ZK CREDENTIALS.",
+    imageUrl: null,
+    codeUrl: "https://github.com/KaushikKC/VeilPay",
+  },
+  {
     id: 1,
     title: "Vestige",
-    description:
-      "Privacy-preserving token launchpad on Solana.",
+    description: "Privacy-preserving token launchpad on Solana.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/vestige",
   },
@@ -22,40 +35,35 @@ const projects = [
   {
     id: 3,
     title: "Pact",
-    description:
-      "DeFi primitive for stake-backed position commitments.",
+    description: "DeFi primitive for stake-backed position commitments.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/Pact",
   },
   {
     id: 4,
     title: "Vyper Guides",
-    description:
-      "Starter guide for Vyper smart contracts.",
+    description: "Starter guide for Vyper smart contracts.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/vyper-tutorials",
   },
   {
     id: 5,
     title: "Lynq",
-    description:
-      "Programmable treasury & lending platform.",
+    description: "Programmable treasury & lending platform.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/lynq.",
   },
   {
     id: 6,
     title: "Drop",
-    description:
-      "Decentralized IP asset monetization platform.",
+    description: "Decentralized IP asset monetization platform.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/Drop",
   },
   {
     id: 7,
     title: "Noro",
-    description:
-      "Decentralized prediction markets with AI-powered analysis.",
+    description: "Decentralized prediction markets with AI-powered analysis.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/noro",
   },
@@ -78,24 +86,21 @@ const projects = [
   {
     id: 10,
     title: "Ledger",
-    description:
-      "Immutable contract management platform.",
+    description: "Immutable contract management platform.",
     imageUrl: null,
     codeUrl: "https://github.com/MadhuVarshaP/Ledger",
   },
   {
     id: 11,
     title: "Ownly",
-    description:
-      "IP asset management platform.",
+    description: "IP asset management platform.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/Ownly",
   },
   {
     id: 12,
     title: "DeCT",
-    description:
-      "Monetize your health data.",
+    description: "Monetize your health data.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/DeCT",
   },
@@ -110,32 +115,28 @@ const projects = [
   {
     id: 14,
     title: "CoPass",
-    description:
-      "A shared travel planning platform.",
+    description: "A shared travel planning platform.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/CoPass-expo",
   },
   {
     id: 15,
     title: "Proof of Witness",
-    description:
-      "A narrative-first zk builder community.",
+    description: "A narrative-first zk builder community.",
     imageUrl: null,
     codeUrl: "https://github.com/MadhuVarshaP/PoW",
   },
   {
     id: 16,
     title: "Chain Bento",
-    description:
-      "Your Web3 developer identity onchain.",
+    description: "Your Web3 developer identity onchain.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/ChainBento",
   },
   {
     id: 17,
     title: "Git Star AVS",
-    description:
-      "GitHub Star Checker AVS using the Othentic Stack.",
+    description: "GitHub Star Checker AVS using the Othentic Stack.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/git-star-fetch-avs",
   },
@@ -150,16 +151,14 @@ const projects = [
   {
     id: 19,
     title: "ReBTC",
-    description:
-      "The next-gen BTC yield & liquidity protocol.",
+    description: "The next-gen BTC yield & liquidity protocol.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/ReBTC",
   },
   {
     id: 20,
     title: "WagerX",
-    description:
-      "A social prediction market for friend groups.",
+    description: "A social prediction market for friend groups.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/wagerX",
   },
@@ -190,24 +189,21 @@ const projects = [
   {
     id: 24,
     title: "Kaushik Chain",
-    description:
-      "Arbitrum Nitro rollup contracts — Orbit Avail Kaushik Chain.",
+    description: "Arbitrum Nitro rollup contracts — Orbit Avail Kaushik Chain.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/Orbit-Avail-Kaushik-Chain",
   },
   {
     id: 25,
     title: "Traffic Run",
-    description:
-      "A traffic run game using the Stackr Labs MRU.",
+    description: "A traffic run game using the Stackr Labs MRU.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/traffic_run",
   },
   {
     id: 26,
     title: "Scroll Grants",
-    description:
-      "A community-driven funding platform.",
+    description: "A community-driven funding platform.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/scrollGrants",
   },
@@ -223,16 +219,14 @@ const projects = [
   {
     id: 28,
     title: "BlockEstate",
-    description:
-      "Decentralized real estate platform.",
+    description: "Decentralized real estate platform.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/BlockEstate_Frontend",
   },
   {
     id: 29,
     title: "Bounty Bridge",
-    description:
-      "Task & earn: transforming local aid with decentralization.",
+    description: "Task & earn: transforming local aid with decentralization.",
     imageUrl: bountybridge,
     codeUrl: "https://github.com/MadhuVarshaP/BountyBridge-frontend",
   },
@@ -247,24 +241,21 @@ const projects = [
   {
     id: 31,
     title: "Regen",
-    description:
-      "A decentralized loan management platform for farmers.",
+    description: "A decentralized loan management platform for farmers.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/Regen-frontend",
   },
   {
     id: 32,
     title: "Milestone",
-    description:
-      "Review proof system.",
+    description: "Review proof system.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/Miestone_Frontend",
   },
   {
     id: 33,
     title: "300s",
-    description:
-      "Betting platform.",
+    description: "Betting platform.",
     imageUrl: null,
     codeUrl: "https://github.com/KaushikKC/300s",
   },

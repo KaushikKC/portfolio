@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import GitHubActivity from "./components/GitHubActivity";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Blogs from "./components/Blogs";
@@ -10,10 +11,11 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-black text-white min-h-screen font-poppins">
+    <div className="bg-white text-black min-h-screen font-sans antialiased">
       <Navbar />
       <Hero />
-      <About />
+      <GitHubActivity />
+      {/* <About /> */}
       <Projects />
       <Blogs />
       <Events />

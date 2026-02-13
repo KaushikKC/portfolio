@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        sans: ["Lora", "Georgia", "Times New Roman", "serif"],
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(circle, var(--tw-gradient-stops))",
+      maxWidth: {
+        prose: "65ch",
       },
     },
   },
